@@ -8,7 +8,9 @@
   },
   "author": "Gerald Lou Berzuela and Eun Hyuk Lee",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "mapbox-gl": "^1.13.0"
+  },
   "devDependencies": {
     "webpack": "^5.6.0",
     "webpack-cli": "^4.2.0"

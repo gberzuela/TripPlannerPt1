@@ -1,4 +1,5 @@
 import mapboxgl from 'mapbox-gl';
+import marker from './marker.js';
 
 console.log('Webpack worked!');
 
@@ -11,3 +12,8 @@ const map = new mapboxgl.Map({
 	zoom: 12, // starting zoom
 	style: 'mapbox://styles/mapbox/streets-v10', // mapbox has lots of different map styles available.
 });
+
+// const FSA = marker('activities', [-74.009151, 40.705086]);
+const hotel = marker('hotels', [6.1024, 115.1746]);
+// FSA.addTo(map);
+hotel.addTo(map);
